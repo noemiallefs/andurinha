@@ -6,7 +6,7 @@
 <!-- badges: end -->
 
 ## Overview
-andurinha provides tools to make spectroscopic data processing easier and faster. It allows to find and select peaks based on the second derivative or absorbance sum spectrum. Furthermore, it supplies functions for graphic support, which makes the workflow more user friendly.
+Tha aim of andurinha is provides tools to make spectroscopic data processing easier and faster. It allows to find and select peaks based on the second derivative or absorbance sum spectrum. Furthermore, it supplies functions for graphic support, which makes the workflow more user friendly.
 
 ## Installation
 ```r
