@@ -1,7 +1,7 @@
 Package: andurinha
 Type: Package
 Title: Tools to Make Spectroscopic Data Processing Easier
-Version: 0.0.9000
+Version: 0.0.0
 Authors@R: c(
     person("Noemi", "Alvarez Fernandez", 
     email = "noemiallefs@gmail.com", 
