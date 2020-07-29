@@ -1,9 +1,8 @@
 # andurinha
 
 <!-- badges: start -->
-[![R build status](https://github.com/noemiallefs/andurinha/workflows/R-CMD-check/badge.svg)](https://github.com/noemiallefs/andurinha/actions)
-
-[![codecov](https://codecov.io/gh/noemiallefs/andurinha/branch/master/graph/badge.svg)](https://codecov.io/gh/noemiallefs/andurinha)
+  [![R build status](https://github.com/noemiallefs/andurinha/workflows/R-CMD-check/badge.svg)](https://github.com/noemiallefs/andurinha/actions)
+  [![codecov](https://codecov.io/gh/noemiallefs/andurinha/branch/master/graph/badge.svg)](https://codecov.io/gh/noemiallefs/andurinha)
 <!-- badges: end -->
 
 ## Overview
