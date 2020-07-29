@@ -3,11 +3,11 @@ Type: Package
 Title: Tools to Make Spectroscopic Data Processing Easier
 Version: 0.0.9000
 Authors@R: c(
-    person("Noemi", "Álvarez Fernández", 
+    person("Noemi", "Alvarez Fernandez", 
     email = "noemiallefs@gmail.com", 
     role = c("aut", "cre"),
     comment = c(ORCID  = "0000-0003-2690-4051")),
-    person("Antonio", "Martínez Cortizas", 
+    person("Antonio", "Martinez Cortizas", 
     role = c("aut"),
     comment = c(ORCID  = "0000-0003-0430-5760")))
 Description: A set of functions that make spectroscopic

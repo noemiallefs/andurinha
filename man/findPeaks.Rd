@@ -34,7 +34,7 @@ the absorbance sum spectrum.}
 \value{
 A list with a collection of data frames which contains:
 \enumerate{
-  \item \emph{dataZ}: the standarised data by Z-scores.
+  \item \emph{dataZ}: the standardised data by Z-scores.
   \item \emph{secondDerivative}: the second derivative values of the data.
   \item \emph{sumSpectrum_peaksTable}: the peaks wave numbers and their
 second derivative/absorbance sum spectrum values.

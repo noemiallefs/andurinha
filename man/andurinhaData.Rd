@@ -8,7 +8,7 @@
 A data frame with 1736 observations of 3 peat samples.
 \itemize{
  \item \emph{WN}: wave numbers of the spectra.
- \item \emph{A-C}: absorbaces of a FTIR spectra of three peat samples.
+ \item \emph{A-C}: absorbances of a FTIR spectra of three peat samples.
 }
 }
 \source{

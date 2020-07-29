@@ -17,7 +17,7 @@
 #'
 #' @return A list with a collection of data frames which contains:
 #' \enumerate{
-#'   \item \emph{dataZ}: the standarised data by Z-scores.
+#'   \item \emph{dataZ}: the standardised data by Z-scores.
 #'   \item \emph{secondDerivative}: the second derivative values of the data.
 #'   \item \emph{sumSpectrum_peaksTable}: the peaks wave numbers and their
 #' second derivative/absorbance sum spectrum values.
@@ -173,7 +173,8 @@ findPeaks <- function(data, resolution = 4, minAbs = 0.1, cutOff = NULL, scale =
       # Second Derivative sum spectrum peaks WN:
       peaksWN <- searchPeaks(sg39Sum[, 2], sg39Sum[, 1])
 
-      # Second Derivative sum spectrum peaks df (WN + second derivative sum spectrum values):
+      # Second Derivative sum spectrum peaks df
+      # (WN + second derivative sum spectrum values):
       peaksSS <- sg39Sum[sg39Sum[, 1] %in% peaksWN, ]
 
     } else {
@@ -186,7 +187,8 @@ findPeaks <- function(data, resolution = 4, minAbs = 0.1, cutOff = NULL, scale =
       # Second Derivative sum spectrum peaks WN:
       peaksWN <- searchPeaks(absSum[, 2], absSum[, 1])
 
-      # Second Derivative sum spectrum peaks df (WN + absorbance sum spectrum values):
+      # Second Derivative sum spectrum peaks df
+      # (WN + absorbance sum spectrum values):
       peaksSS <- absSum[absSum[, 1] %in% peaksWN, ]
 
     }

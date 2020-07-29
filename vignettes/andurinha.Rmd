@@ -85,13 +85,13 @@ head(spectra)
 
 ### Find peaks
 
-The function `findPeaks()` verifies the spectra quality, finds peaks (*surprise!*) and allows to select the most relevant ones based on the absorbance or second derivative sum spectrum. To use it the data must be in the appropiate format, it means that the object class must be a `data frame` with the structure:
+The function `findPeaks()` verifies the spectra quality, finds peaks (*surprise!*) and allows to select the most relevant ones based on the absorbance or second derivative sum spectrum. To use it the data must be in the appropriate format, it means that the object class must be a `data frame` with the structure:
 
   + **First column**: wave numbers.
   
   + **The following columns**: samples absorbances.
   
-This fuction has five arguments: 
+This function has five arguments: 
   
   1. `resolution`: the equipment measurement resolution, which is by default 4 cm^-1^.
   
@@ -195,7 +195,7 @@ plotPeaks(fp.ndd[[4]]$WN,
 
 To reduce the peaks table a cut off must be selected; this may be based on the second derivative or on the absorbance sum spectra values. Therefore, the `sumSpectrum_peaksTable` must be kept in mind; to make the choice easier it may be ordered and then filtered. The function `plotPeaks()` may be very useful to make the choice.
 
-When the peaks search is made based on the absorbance sum spectrum, the number of peaks found will be lower than that obtained when using the second derivative sum spectrum. Due to the smaller number of peaks selection may be not needed. This makes the workflow easier, but this method might not find all relevant peaks. Owing to the search based on absorbance sum spectrum is less efficient than the search based on the second derivative sum spectrum, we recomend the second method. But this will need a little bit more user work. The following examples show the differences between both methods:
+When the peaks search is made based on the absorbance sum spectrum, the number of peaks found will be lower than that obtained when using the second derivative sum spectrum. Due to the smaller number of peaks selection may be not needed. This makes the workflow easier, but this method might not find all relevant peaks. Owing to the search based on absorbance sum spectrum is less efficient than the search based on the second derivative sum spectrum, we recommend the second method. But this will need a little bit more user work. The following examples show the differences between both methods:
 
 ```{r}
 # Select cutOff based on absorbance sum spectrum 
