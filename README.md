@@ -1,7 +1,9 @@
 # andurinha
 
-[![Build Status](https://travis-ci.com/noemiallefs/andurinha.svg?branch=master)](https://travis-ci.com/noemiallefs/andurinha)
-[![codecov](https://codecov.io/gh/noemiallefs/andurinha/branch/master/graph/badge.svg)](https://codecov.io/gh/noemiallefs/andurinha)
+<!-- badges: start -->
+  [![R build status](https://github.com/noemiallefs/andurinha/workflows/R-CMD-check/badge.svg)](https://github.com/noemiallefs/andurinha/actions)
+  [![codecov](https://codecov.io/gh/noemiallefs/andurinha/branch/master/graph/badge.svg)](https://codecov.io/gh/noemiallefs/andurinha)
+<!-- badges: end -->
 
 ## Overview
 andurinha provides tools to make spectroscopic data processing easier and faster. It allows to find and select peaks based on the second derivative or absorbance sum spectrum. Furthermore, it supplies functions for graphic support, which makes the workflow more user friendly.
