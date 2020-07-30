@@ -202,3 +202,7 @@ plotPeaks(fp.ndd2[[4]]$WN,
           data_abs = fp.ndd2$dataZ,
           data_ndd = fp.ndd2$secondDerivative)
 ```
+
+## Cite
+
+Noemi Alvarez Fernandez and Antonio Martinez Cortizas (2020). andurinha: Tools to Make Spectroscopic Data Processing Easier. R package version 0.0.0. https://github.com/noemiallefs/andurinha
