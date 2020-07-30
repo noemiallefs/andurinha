@@ -109,7 +109,7 @@ dim(fp.nZs$sumSpectrum_peaksTable)
 
 To visualised both the raw data and the processed data by `findPeaks()`; the functions `gOverview()` and `plotPeaks()` may be applied.
 
-#### `gOverview()`: 
+##### `gOverview()`: 
 
 Gives a graphic summary of the data. This function has the arguments:
 
@@ -131,7 +131,7 @@ gOverview(andurinhaData)
 gOverview(fp.ndd$dataZ, fp.ndd$secondDerivative)
 ```
 
-#### `plotPeaks()`:
+##### `plotPeaks()`:
 
 Makes a graphic representation of the peaks that have been found over the second derivative or absorbance sum spectra. This plot, together with the **sumSpectrum_peaksTable**, allows to choose the desired `cutOff` value to reduce the peaks table by running again `findPeaks()`. This function has the arguments:
 
@@ -156,7 +156,7 @@ plotPeaks(fp.ndd[[4]]$WN,
           data_ndd = fp.ndd$secondDerivative)
 ```
 
-#### Peaks selection
+### Peaks selection
 
 To reduce the peaks table a cut off must be selected; this may be based on the second derivative or on the absorbance sum spectra values. Therefore, the `sumSpectrum_peaksTable` must be kept in mind; to make the choice easier it may be ordered and then filtered. The function `plotPeaks()` may be very useful to make the choice.
 
