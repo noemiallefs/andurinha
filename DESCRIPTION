@@ -1,7 +1,7 @@
 Package: andurinha
 Type: Package
 Title: Tools to Make Spectroscopic Data Processing Easier
-Version: 0.0.0
+Version: 0.0.1
 Authors@R: c(
     person("Noemi", "Alvarez Fernandez", 
     email = "noemiallefs@gmail.com", 
@@ -16,7 +16,7 @@ Description: A set of functions that make spectroscopic
     compiles spectroscopy data files, produces standardized and second derivative
     spectra, finds peaks and allows to select the most significant ones based on
     the second derivative/absorbance sum spectrum. It also provides functions for
-    graphic evaluation of the outputs.
+    graphic evaluation of the outputs. <doi:>
 Depends: R (>= 3.5.0)
 License: GPL-2
 URL: https://github.com/noemiallefs/andurinha 
