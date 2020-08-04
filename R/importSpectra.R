@@ -26,12 +26,12 @@
 #' B <- andurinha[, c(1, 3)]
 #' C <- andurinha[, c(1, 4)]
 #'
-#' write.matrix(A, file = "/your/path/to/the/directory/A.csv", sep = ";")
-#' write.matrix(A, file = "/your/path/to/the/directory/B.csv", sep = ";")
-#' write.matrix(A, file = "/your/path/to/the/directory/C.csv", sep = ";")
+#' write.matrix(A, file = tempfile(pattern = "A.csv"), sep = ";")
+#' write.matrix(A, file = tempfile(pattern = "B.csv"), sep = ";")
+#' write.matrix(A, file = tempfile(pattern = "C.csv"), sep = ";")
 #'
 #' # Try
-#' importSpectra("/your/path/to/the/directory", sep = ";")
+#' importSpectra(path = tempdir(), sep = ";")
 #' }
 #'
 #' @export

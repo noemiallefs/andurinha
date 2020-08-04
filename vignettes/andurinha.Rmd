@@ -71,7 +71,7 @@ There are two common situations when importing the spectroscopic data.
 In that case, the function `importSpectra()` can be used; to do so the files extension should be `.csv` and they must be in the same directory - this folder must not contain any other file. 
 
 ```{r eval=FALSE}
-spectra <- importSpectra("/path/to/your/spectraFiles/", sep = ";")
+spectra <- importSpectra(path = tempdir(), sep = ";")
 head(spectra)
 
 #>    WN     A     B     C
