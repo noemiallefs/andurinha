@@ -19,20 +19,18 @@
 #'   \code{\link{plotPeaks}}
 #'
 #' @examples
-#' \dontrun{
 #' # Create an empty directory
 #' # Now create some spectra separate files
-#' A <- andurinha[, 1:2]
-#' B <- andurinha[, c(1, 3)]
-#' C <- andurinha[, c(1, 4)]
+#' A <- andurinhaData[, 1:2]
+#' B <- andurinhaData[, c(1, 3)]
+#' C <- andurinhaData[, c(1, 4)]
 #'
-#' write.matrix(A, file = tempfile(pattern = "A.csv"), sep = ";")
-#' write.matrix(A, file = tempfile(pattern = "B.csv"), sep = ";")
-#' write.matrix(A, file = tempfile(pattern = "C.csv"), sep = ";")
+#' MASS::write.matrix(A, file = tempfile(pattern = "A.csv"), sep = ";")
+#' MASS::write.matrix(A, file = tempfile(pattern = "B.csv"), sep = ";")
+#' MASS::write.matrix(A, file = tempfile(pattern = "C.csv"), sep = ";")
 #'
 #' # Try
-#' importSpectra(path = tempdir(), sep = ";")
-#' }
+#' importSpectra(path = paste0(tempdir(), "/"), ";")
 #'
 #' @export
 
