@@ -19,8 +19,8 @@ Description: A set of functions that make spectroscopic
     graphic evaluation of the outputs. <doi:>.
 Depends: R (>= 3.5.0)
 License: GPL-2
-URL: https://github.com/noemiallefs/andurinha 
-BugReports: https://github.com/noemiallefs/andurinha/issues 
+URL: https://github.com/noemiallefs/andurinha
+BugReports: https://github.com/noemiallefs/andurinha/issues
 Encoding: UTF-8
 LazyData: true
 Imports:
