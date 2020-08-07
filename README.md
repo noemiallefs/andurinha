@@ -205,4 +205,4 @@ plotPeaks(fp.ndd2[[4]]$WN,
 
 ## Cite
 
-Noemi Alvarez Fernandez and Antonio Martinez Cortizas (2020). andurinha: Tools to Make Spectroscopic Data Processing Easier. R package version 0.0.0. https://github.com/noemiallefs/andurinha
+Noemi Alvarez Fernandez and Antonio Martinez Cortizas (2020). andurinha: Make Spectroscopic Data Processing Easier. R package version 0.0.0. https://github.com/noemiallefs/andurinha
