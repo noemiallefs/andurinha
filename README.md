@@ -11,6 +11,10 @@ The aim of andurinha is provides tools to make spectroscopic data processing eas
 
 ## Installation
 ```r
+# The easiest way to get andurinha
+install.packages("andurinha")
+
+# Or the development version from GitHub:
 # install.packages("devtools")
 devtools::install_github("noemiallefs/andurinha")
 ```
