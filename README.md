@@ -1,6 +1,7 @@
 # andurinha
 
 <!-- badges: start -->
+  [![CRAN status](https://www.r-pkg.org/badges/version/andurinha)](https://CRAN.R-project.org/package=andurinha)
   [![R build status](https://github.com/noemiallefs/andurinha/workflows/R-CMD-check/badge.svg)](https://github.com/noemiallefs/andurinha/actions)
   [![codecov](https://codecov.io/gh/noemiallefs/andurinha/branch/master/graph/badge.svg)](https://codecov.io/gh/noemiallefs/andurinha)
 <!-- badges: end -->
@@ -205,5 +206,4 @@ plotPeaks(fp.ndd2[[4]]$WN,
 
 ## Cite
 
-  Noemi Alvarez Fernandez and Antonio Martinez Cortizas (2020). andurinha: Make Spectroscopic Data Processing
-  Easier. R package version 0.0.2. https://CRAN.R-project.org/package=andurinha
+Noemi Alvarez Fernandez and Antonio Martinez Cortizas (2020). andurinha: Make Spectroscopic Data Processing Easier. R package version 0.0.2. https://CRAN.R-project.org/package=andurinha
